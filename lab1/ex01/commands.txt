@@ -1,0 +1,10 @@
+history
+man
+date
+xkill
+htop
+file
+touch
+zip
+free
+uptime
