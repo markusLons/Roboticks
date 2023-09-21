@@ -1,0 +1,11 @@
+markus@markus-HP-ENVY-x360-Convertible-15-cn0xxx:~/ros2_ws$ colcon build --packages-select markus_test 
+Starting >>> markus_test
+--- stderr: markus_test                   
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+---
+Finished <<< markus_test [1.16s]
+
+Summary: 1 package finished [1.47s]
+  1 package had stderr output: markus_test
+
