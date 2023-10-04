@@ -1,0 +1,11 @@
+# goal definition
+string command 		# “forward”,”turn_left”, “turn_right”
+int32 s 		# the distance in the meters that should drive a turtle
+int32 angle 		# The angle in degrees to which the turtle should turn
+---
+# result definition
+bool result 		# True - the turtle completed the command, false - the turtle could not execute the command, for example, because the command was interrupted
+---
+#feedback
+int32 odom 		# Called to the tortoise distance of meters from the start of the command
+
