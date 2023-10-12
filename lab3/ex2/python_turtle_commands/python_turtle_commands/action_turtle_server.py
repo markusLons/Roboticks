@@ -67,10 +67,9 @@ class TurtleCommandActionServer(Node):
 def main(args=None):
     rclpy.init(args=args)
     action_turtle_server = TurtleCommandActionServer()
-    try:
-        rclpy.spin(action_turtle_server)
-    finally:
-        rclpy.shutdown()
+
+    rclpy.spin(action_turtle_server)
+
 
 if __name__ == '__main__':
     main()
