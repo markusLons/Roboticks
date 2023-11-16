@@ -13,16 +13,15 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='markus',
-    maintainer_email='markuslons@gmail.com',
+    maintainer='vladimir',
+    maintainer_email='v.leshin@g.nsu.ru',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'robot_app = robot_app.robot_app:main',
-            'robot_app_with_camera = robot_app.robot_app_with_camera:main',
+            'robot_app_camera = robot_app.robot_app_camera:main',
         ],
     },
 )
-

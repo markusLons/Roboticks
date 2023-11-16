@@ -4,7 +4,7 @@
   <name>robot_app</name>
   <version>0.0.0</version>
   <description>Working with lidar to prevent collisions</description>
-  <maintainer email="markuslons@gmail.com">markus</maintainer>
+  <maintainer email="v.leshin@g.nsu.ru">vladimir</maintainer>
   <license>Apache License 2.0</license>
 
   <exec_depend>rclpy</exec_depend>
